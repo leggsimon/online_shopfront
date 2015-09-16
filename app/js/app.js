@@ -1,1 +1,1 @@
-var shopfront = angular.module('OnlineShopfront', ['ngResource']);
+var shopfront = angular.module('OnlineShopfront', ['ngResource', ]);
