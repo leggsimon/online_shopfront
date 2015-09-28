@@ -14,6 +14,12 @@
   </head>
 
   <body ng-controller="OnlineShopfrontController as shopfrontCtrl">
-    Welcome to the Online Shopfront!!
+    <div ng-repeat="product in products">
+      <ul>
+        <li>{{product.product_name}}</li>
+        <li>{{product.price | currency:"£"}}</li>
+        <li>{{product.category}}</li>
+      </ul>
+    </div>
   </body>
 </html>

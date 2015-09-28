@@ -19,10 +19,10 @@ describe('OnlineShopfrontController', function() {
   }));
 
   it('should get a list of clothes', function() {
-    expect(scope.phones).toBeUndefined();
+    expect(scope.products).toBeUndefined();
     $httpBackend.flush();
 
-    expect(scope.items).toEqual([{
+    expect(scope.products).toEqual([{
       product_name: "Almond Toe Court Shoes, Patent Black"
     }, {
       product_name: "Suede Shoes, Blue"
