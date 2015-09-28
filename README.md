@@ -26,3 +26,20 @@ As a user,
 I am unable to add Out of Stock products to my shopping cart
 
 ```
+
+## Run the app
+
+```
+$ git clone https://github.com/leggsimon/online_shopfront.git
+$ cd online_shopfront
+$ node server.js
+```
+
+Go to http://localhost:3000/
+
+## Testing
+
+To run karma tests:
+```
+$ karma start test/karma.conf.js
+```

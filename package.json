@@ -27,6 +27,8 @@
   "dependencies": {
     "body-parser": "^1.13.3",
     "express": "^4.13.3",
-    "express-session": "^1.11.3"
+    "express-session": "^1.11.3",
+    "istanbul": "^0.3.20",
+    "karma-coverage": "^0.5.2"
   }
 }
